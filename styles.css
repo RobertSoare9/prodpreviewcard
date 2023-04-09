@@ -1,0 +1,19 @@
+html{
+    height: 100%;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+    width: 5rem;
+}
+img{
+    object-fit: fill ;
+}
