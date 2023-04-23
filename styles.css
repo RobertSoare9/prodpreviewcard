@@ -75,4 +75,14 @@ h2{
 .newp{
     color: hsl(158,36%,37%);
 }
+@media (max-width:480px){
+    .container{
+        flex-direction: column;
+        width: 90%;
+        height: 80%;
+    }
+    .image{
+        border-radius: 10px 10px 0 0;
+    }
+}
 
